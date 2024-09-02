@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrabalhoHTML</title>
+    
+    <style>
+
+        body{
+            margin: 0;
+            background-color: #e1f3f5;
+        }
+        * {
+            box-sizing: border-box;
+            font-family: 'Lucida Sans',sans-serif;
+        }
+        /* CSS para alterar o visual do cabeçalho*/
+        .cabecalho {
+            background-color: #a7eff8;
+            text-align: center;
+            font-size: 22px;
+            display: grid;
+            margin:20px;
+            font-family: 'Lucida Sans',sans-serif;
+        }
+        
+        .container {
+             display: grid;
+        }
+        /* CSS para alterar o visual do section / paragrafos*/
+        .principal {
+            font-size:25px;
+            text-align: justify;
+            padding-inline:10px;
+            margin-inline: 80px;
+            font-family: 'Lucida Sans',sans-serif;
+        }
+        /* Parte visual do menu*/
+        .menu {
+            font-size: 20px;
+            justify-content: center;
+            background-color: #a7eff8;
+            text-align: center;
+            font-size: 25px;
+            display: grid;
+            color: white;
+            margin:20px;
+        }
+        /* altera o visual dos links e retira o sublinhado*/
+        a:link{
+        text-decoration: none;
+        border-color: rgb(255, 0, 0);
+        padding-inline: 30px;
+        font-weight: bold;
+        }
+        
+        a:visited{
+            color: rgb(0, 0, 0);
+        }
+        
+        .a1:hover {
+            background-color: #e1f3f5;
+            border-radius: 20px;
+        }
+        
+        .a2:hover{
+            background-color: #a7eff8;
+            border-radius: 20px;
+        }
+
+        li{
+            float: left;
+            padding: 25px;
+            list-style-type: none;
+        }
+           
+        .divstyle{
+            display: flex;
+            justify-content: center;
+        }
+        
+        p::first-letter{
+            color:#a7eff8;
+            font-size: 40px;
+            text-shadow: 2px 2px black
+        }
+        
+        </style>
+
+</head>
+
+<body>
+
+<nav class=" container menu">
+    <div >
+        <li><a class="a1" href="index.html">Quem sou?</a></li>
+        <li><a class="a1" href="formacaoEducacional.html">Formação educacional</a></li>
+        <li><a class="a1" href="meuportfolio.html">Meu portfólio</a></li>
+        <li><a class="a1" href="querfalarcomigo.html">Contato</a></li>
+    </div>
+</nav> 
+
+    <header class="cabecalho"> 
+        <h1>Projetos</h1>
+    </header>
+
+<section class="principal container">
+
+    <p style="text-align: center;">Meu primeiro site</p>
+
+    <div class="divstyle a1">
+        <a class="a2" href="https://maaathews.github.io/meuportfolio/">Wiki Mikasa Ackerman</a>
+    </div>
+       
+</section>
+
+
+</body>
+</html>
